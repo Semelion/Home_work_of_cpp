@@ -3,4 +3,4 @@ project(home_work)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(CF_problem_1722C main.cpp)
+add_executable(1670B 1670B.cpp)
