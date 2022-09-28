@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "home_work",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1404A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1404A-Debug-a68522a4f03efc3fbb59.json",
+					"name" : "1404A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1512C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1512C-Debug-404f2f68b0d66283cec8.json",
+					"name" : "1512C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1670B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1670B-Debug-54a50dad3a379db10a14.json",
+					"name" : "1670B",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/senya/CLionProjects/Home_work_of_cpp/cmake-build-debug",
+		"source" : "C:/Users/senya/CLionProjects/Home_work_of_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
