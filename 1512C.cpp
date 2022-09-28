@@ -21,7 +21,7 @@ int main(){
             } else if(s[i] == '0'){
                 a--;
             }
-            if(s[i] == '?'){
+            if(s[i] == '?' && a >= 0 && b >= 0){
                 can_change_s = true;
             }
         }
