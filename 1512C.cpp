@@ -73,7 +73,7 @@ int main(){
             } else if(s.size() > 1){
                 for (int i = 0; i < s.size() / 2; i++) {
                     if (s[i] == '?' && s[s.size() - i - 1] != '?') {
-                        s[i] = s[s.size() - i];
+                        s[i] = s[s.size() - i - 1];
                         if (s[i] == '0') {
                             a--;
                         } else {
