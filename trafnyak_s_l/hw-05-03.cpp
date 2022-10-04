@@ -21,21 +21,19 @@ int main(){
 
     std::cout << " x | s(x) | f(x)\n";
 
-    bool flag = true;
-    while (flag){
-        for(double x = a; x <= b; x += delta) {
+    for(double x = a; x <= b; x += delta) {
+        bool flag = true;
+        while (flag) {
             double temp = double(std::pow(2*x, i)) / factorial(i);
             summ += temp;
-
-            double y = pow(M_E, 2*x);
-            std::cout << x << " | " << summ << " | " << y << "\n";
-
-            if(std::abs(temp) < epsilon){
+            if (std::abs(temp) < epsilon) {
                 flag = false;
                 break;
             }
+            i++;
         }
-        i++;
+        double y = pow(M_E, 2*x);
+        std::cout << x << " | " << summ << " | " << y << "\n";
     }
     return 0;
 }

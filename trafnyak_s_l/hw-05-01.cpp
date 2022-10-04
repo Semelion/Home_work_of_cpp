@@ -19,18 +19,18 @@ int main(){
 
     std::cout << " x | s(x) | f(x)\n";
 
-    bool flag = true;
-    while (flag){
-        for(double x = a; x <= b; x += delta) {
-            double temp = double(std::pow(-1, i))* double(std::pow(x,2*i)) / double (factorial(2*i));
+    for(double x = a; x <= b; x += delta) {
+        bool flag = true;
+        while (flag) {
+            double temp = double(std::pow(-1, i)) * double(std::pow(x, 2 * i)) / double(factorial(2 * i));
             summ += temp;
-            if(std::abs(temp) < epsilon){
+            if (std::abs(temp) < epsilon) {
                 flag = false;
                 break;
             }
-            std::cout << x << " | " << summ << " | " << std::cos(x) << "\n";
+            i++;
         }
-        i++;
+        std::cout << x << " | " << summ << " | " << std::cos(x) << "\n";
     }
     return 0;
 }

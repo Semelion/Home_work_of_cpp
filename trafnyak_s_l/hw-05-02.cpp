@@ -14,21 +14,20 @@ int main(){
 
     std::cout << " x | s(x) | f(x)\n";
 
-    bool flag = true;
-    while (flag){
-        for(double x = a; x <= b; x += delta) {
+    for(double x = a; x <= b; x += delta) {
+        bool flag = true;
+        while (flag) {
             double temp = double(std::pow(x, i)) * std::sin(i * M_PI / 4.0);
             summ += temp;
-
-            double y = x * std::sin(M_PI / 4.0) / (1 - 2 * x * std::cos(M_PI / 4.0));
-            std::cout << x << " | " << summ << " | " << y << "\n";
-
-            if(std::abs(temp) < epsilon){
+            if (std::abs(temp) < epsilon) {
                 flag = false;
                 break;
             }
+            i++;
         }
-        i++;
+        double y = x * std::sin(M_PI / 4.0) / (1 - 2 * x * std::cos(M_PI / 4.0));
+        std::cout << x << " | " << summ << " | " << y << "\n";
     }
+
     return 0;
 }
