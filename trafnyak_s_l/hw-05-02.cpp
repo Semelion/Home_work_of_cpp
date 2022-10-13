@@ -19,12 +19,12 @@ int main(){
         while (flag) {
             double temp = double(std::pow(x, i)) * std::sin(i * M_PI / 4.0);
             summ += temp;
-            if (std::abs(temp) < epsilon) {
+            if (std::abs(temp) < epsilon && temp != 0 || x == 0){
                 flag = false;
                 break;
             }
             i++;
-        }
+        }-6
         double y = x * std::sin(M_PI / 4.0) / (1 - 2 * x * std::cos(M_PI / 4.0));
         std::cout << x << " | " << summ << " | " << y << "\n";
     }

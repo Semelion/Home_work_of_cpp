@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 
 #define epsilon 0.001
 #define delta 0.1
@@ -14,6 +15,7 @@ long factorial(long n){
 }
 
 int main(){
+    std::cout << std::fixed << std::setprecision(3);
     double summ = 0.0;
     long long i = 0;
 
