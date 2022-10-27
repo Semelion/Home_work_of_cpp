@@ -21,22 +21,25 @@ int main() {
         }
         int k_max = last_count;
 
-        for(int i = k; i <= n-k; i++){
+        for (int i = 0; i <= n - k; i++) {
             int count = last_count;
-            if(strip[i] == 'B'){
+            if (strip[i] == 'B') {
                 count--;
             }
-            if(strip[i+k] == 'B'){
+            if (strip[i + k] == 'B') {
                 count++;
             }
 
             last_count = count;
-            if(k_max < count){
+            if (k_max < count) {
                 k_max = count;
             }
         }
-
-        std::cout << k - k_max << "\n";
+        if(k_max >= k){
+            std::cout << 0 << "\n";
+        } else{
+            std::cout << k - k_max << "\n";
+        }
 
     }
 
