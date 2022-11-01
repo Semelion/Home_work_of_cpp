@@ -3,6 +3,8 @@ project(home_work)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_executable(test for_test.cpp)
+
 add_executable(1670B 1670B.cpp)
 add_executable(1512C 1512C.cpp)
 add_executable(1404A 1404A.cpp)
