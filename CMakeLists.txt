@@ -4,6 +4,10 @@ project(home_work)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(test for_test.cpp)
+add_executable(test_sum test_sum.cpp)
+add_executable(test_num_in_area test_num_in_area.cpp)
+add_executable(test_words test_words.cpp)
+add_executable(geom test_geom.cpp)
 
 add_executable(1670B 1670B.cpp)
 add_executable(1512C 1512C.cpp)

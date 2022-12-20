@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "1512b.exe"
+			"path" : "1017a.exe"
 		},
 		{
-			"path" : "1512b.pdb"
+			"path" : "1017a.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 23,
+				"line" : 37,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "1512b::@6890427a1f51a3e7e1df",
+	"id" : "1017a::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "1512b",
-	"nameOnDisk" : "1512b.exe",
+	"name" : "1017a",
+	"nameOnDisk" : "1017a.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "trafnyak_s_l/1512b.cpp",
+			"path" : "trafnyak_s_l/1017a.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "1559a.exe"
+			"path" : "test_sum.exe"
 		},
 		{
-			"path" : "1559a.pdb"
+			"path" : "test_sum.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 7,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "1559a::@6890427a1f51a3e7e1df",
+	"id" : "test_sum::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "1559a",
-	"nameOnDisk" : "1559a.exe",
+	"name" : "test_sum",
+	"nameOnDisk" : "test_sum.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "trafnyak_s_l/1559a.cpp",
+			"path" : "test_sum.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

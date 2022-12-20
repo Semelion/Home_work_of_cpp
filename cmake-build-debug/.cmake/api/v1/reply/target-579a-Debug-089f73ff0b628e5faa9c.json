@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "886B.exe"
+			"path" : "579a.exe"
 		},
 		{
-			"path" : "886B.pdb"
+			"path" : "579a.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "886B::@6890427a1f51a3e7e1df",
+	"id" : "579a::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "886B",
-	"nameOnDisk" : "886B.exe",
+	"name" : "579a",
+	"nameOnDisk" : "579a.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "trafnyak_s_l/886b.cpp",
+			"path" : "trafnyak_s_l/579a.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

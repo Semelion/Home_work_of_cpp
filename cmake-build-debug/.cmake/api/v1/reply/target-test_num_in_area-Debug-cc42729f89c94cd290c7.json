@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "879B.exe"
+			"path" : "test_num_in_area.exe"
 		},
 		{
-			"path" : "879B.pdb"
+			"path" : "test_num_in_area.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 30,
+				"line" : 8,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "879B::@6890427a1f51a3e7e1df",
+	"id" : "test_num_in_area::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "879B",
-	"nameOnDisk" : "879B.exe",
+	"name" : "test_num_in_area",
+	"nameOnDisk" : "test_num_in_area.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "trafnyak_s_l/879b.cpp",
+			"path" : "test_num_in_area.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
