@@ -58,7 +58,7 @@ int main() {
             }
             input = temp1;
         }
-        std::cout << input << "\t" << output << "\n";
+        //std::cout << input << "\t" << output << "\n";
     }
     std::cout << output;
 }
