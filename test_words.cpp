@@ -6,7 +6,7 @@ const char alphabet[alphabet_size] = {'a', 'e', 'i', 'o', 'u', 'y', ' '};
 
 bool char_in_alphabet(const char &ch){
     bool flag = false;
-    for(int i = 0; i <= alphabet_size; i++){
+    for(int i = 0; i < alphabet_size; i++){
         if(ch == alphabet[i]){
             flag = true;
             break;
