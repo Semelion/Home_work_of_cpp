@@ -42,7 +42,10 @@
 						24,
 						25,
 						26,
-						27
+						27,
+						28,
+						29,
+						30
 					]
 				}
 			],
@@ -84,7 +87,10 @@
 						24,
 						25,
 						26,
-						27
+						27,
+						28,
+						29,
+						30
 					]
 				}
 			],
@@ -256,6 +262,27 @@
 					"id" : "hw-05-03::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-hw-05-03-Debug-81488c6520a7a04bb539.json",
 					"name" : "hw-05-03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nomer1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nomer1-Debug-667d94557f6a0cb8e493.json",
+					"name" : "nomer1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nomer2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nomer2-Debug-e65cf61a7ab2d77954df.json",
+					"name" : "nomer2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nomer3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nomer3-Debug-7650e735852a91d8c301.json",
+					"name" : "nomer3",
 					"projectIndex" : 0
 				},
 				{
