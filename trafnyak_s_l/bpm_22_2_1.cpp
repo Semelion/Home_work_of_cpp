@@ -9,7 +9,7 @@
 int main(){
     std::cout << "x\tsum\n";
 
-    for(double x = x_start; x <= x_end; x += delta){
+    for(double x = x_start; x < x_end + delta; x += delta){
         int i = 0;
         double element = std::pow(-1, i)*(std::pow(x, (2*i + 1)) / (2*i + 1));
         double sum = element;
