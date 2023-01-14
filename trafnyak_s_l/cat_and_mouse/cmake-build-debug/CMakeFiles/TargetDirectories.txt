@@ -1,0 +1,7 @@
+C:/Users/senya/CLionProjects/test/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/senya/CLionProjects/test/cmake-build-debug/CMakeFiles/test2.dir
+C:/Users/senya/CLionProjects/test/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/senya/CLionProjects/test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/senya/CLionProjects/test/cmake-build-debug/geom/CMakeFiles/geom.dir
+C:/Users/senya/CLionProjects/test/cmake-build-debug/geom/CMakeFiles/edit_cache.dir
+C:/Users/senya/CLionProjects/test/cmake-build-debug/geom/CMakeFiles/rebuild_cache.dir
